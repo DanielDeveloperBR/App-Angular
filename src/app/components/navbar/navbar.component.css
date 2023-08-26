@@ -1,0 +1,44 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 152, 87);
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+}
+
+li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px;
+}
+nav {
+    display: block;
+}
+
+a {
+    color: white;
+    padding: 20px;
+}
+a:hover{
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
+    animation: teste 0.3s infinite linear;
+}
+
+@keyframes teste{
+    0%{
+        transform:  rotate(45px);
+    }
+    50%{
+        transform:  rotate(45px);
+    }
+    100%{
+        transform:  rotate(45px);
+    }
+}
